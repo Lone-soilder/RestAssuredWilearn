@@ -5,12 +5,12 @@ package com.Lone_soilder.learningConcurrency;
 // This is done using synchronization.
 // Without synchronized: You risk race conditions and data inconsistency.
 // Without join(): The main thread may not wait for other threads to complete, leading to incomplete results.
-import groovyjarjarantlr4.runtime.tree.TreeAdaptor;
+//import groovyjarjarantlr4.runtime.tree.TreeAdaptor;
 
 class Counter {
     private int count = 0;
 
-    public synchronized void incrementCount(){
+    public  void incrementCount(){
         count++;
     }
 
