@@ -1,0 +1,80 @@
+I. Selenium WebDriver
+     Introducing WebDriver
+     How Does WebDriver ‘Drive’ the Browser Compared to Selenium-RC?
+     WebDriver and the Selenium-Server
+     Introducing the Selenium-WebDriver API by Example
+     Selenium-WebDriver API Commands and Operations
+        o Fetching a Page
+        o Locating UI Elements (WebElements)
+             By ID
+             By Tag Name
+             By Name
+             By Link Text
+             By Partial Link Text
+             By CSS
+             By XPath
+        o Using JavaScript
+        o Getting text values
+        o User Input - Filling In Forms
+        o Moving Between Windows and Frames
+        o Popup Dialogs
+        o Navigation: History and Location
+        o Cookies
+        o Changing the User Agent
+        o Drag And Drop
+II. Using the Page Object Model 145
+     Introduction
+     Using the PageFactory class for exposing elements from a page
+     Using the PageFactory class for exposing an operation on a page
+III. Driver Specifics and Tradeoffs
+     Selenium-WebDriver’s Drivers
+        o HtmlUnit Driver
+        o Firefox Driver
+        o Internet Explorer Driver
+        o ChromeDriver
+IV. Running Standalone Selenium Server for use with RemoteDrivers
+
+V. WebDriver: Advanced Usage
+     Explicit and Implicit Waits
+     RemoteWebDriver
+     AdvancedUserInteractions
+     Parallelizing Your Test Runs
+VI. JavaScript and Selenium JavaScriptExecutor
+     What is JavaScript?
+     Evaluating Xpaths
+     Finding Element using JavaScript and JavaScriptExecutor
+     Generate Alert Pop Window
+     Click Action
+     Refresh Browser
+     Get InnerText of a Webpage
+     Get Title of a WebPage
+     Scroll Page
+VII. Selenium-Grid
+     What is Selenium-Grid?
+     When to Use It
+     Selenium-Grid 2.0
+     How Selenium-Grid Works–With a Hub and Nodes
+     Starting Selenium-Grid
+     Hub Node Configuration
+VIII. TestNG
+     Introduction
+     Annotations
+     testng.xml
+     Running TestNG
+     Test methods, Test classes and Test groups, Parameters
+     Parallelism and time-outs
+IX. What is Apache Ant
+     Benefit of Ant build
+     Understanding Build.xml
+X. Maven & Jenkins with Selenium
+     What is Jenkins?
+     Important Features of Jenkins
+     Why Jenkins and Selenium?
+     Why Maven & Jenkins
+XI. Introduction Java
+     Java Basics
+     What Is a Collections Framework?
+     Benefits of the Java Collections Framework
+     Collection Interfaces
+     ArrayList
+     Summary

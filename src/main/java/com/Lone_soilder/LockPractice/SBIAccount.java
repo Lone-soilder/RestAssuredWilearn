@@ -8,7 +8,7 @@ public class SBIAccount {
 
     private int balance = 100 ;
 
-    private Lock lock = new ReentrantLock();
+    private final Lock lock = new ReentrantLock();
 
     public int getBalance() {
         return balance;
