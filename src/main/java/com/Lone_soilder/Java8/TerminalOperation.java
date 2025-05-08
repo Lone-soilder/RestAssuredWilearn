@@ -49,6 +49,11 @@ public class TerminalOperation {
         countOccurence("hello world");
 
 
+        //example
+ // note - streams cannot be reused after a terminal operation has been called
+ Stream<String> stream = names.stream();
+ stream.forEach(System.out::println);
+ //List<String> list1 = stream.map(String::toUpperCase).toList(); //exception
 
 
 
