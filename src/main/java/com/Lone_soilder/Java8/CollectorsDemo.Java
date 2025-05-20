@@ -63,6 +63,7 @@ public class CollectorsDemo {
  System.out.println(treeMap);
  //{4=1, 5=2, 6=1, 10=1}
 
+  System.out.println(treeMap);
 
  // Partitioning Elements
  // Partitions elements into two groups (true and false) based on predicate
